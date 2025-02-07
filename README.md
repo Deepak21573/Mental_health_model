@@ -114,3 +114,15 @@ Precision
 Recall
 
 F1-score
+
+**Screenshot
+
+![Screenshot (100)](https://github.com/user-attachments/assets/89344769-0d09-466d-a690-d3345c164ea7)
+
+
+![Screenshot (101)](https://github.com/user-attachments/assets/abc62b87-f7c4-4f67-bd28-773064dbfa85)
+
+![Screenshot (102)](https://github.com/user-attachments/assets/bc7d3f43-0f5a-4c03-9f45-424af12a2ad6)
+
+
+

@@ -16,11 +16,11 @@ Model Prediction: A Gradio-based user interface to make real-time predictions ba
 The dataset (survey.csv) contains survey responses with columns representing demographic information and mental health-related questions. The treatment column represents whether the individual needs treatment or not.
 
 ## Columns:
-Timestamp: Timestamp of survey submission (dropped)
-comments: Optional comments by the participant (dropped)
-state: The state where the participant resides (dropped)
+**Timestamp**: Timestamp of survey submission (dropped)
+**comments**: Optional comments by the participant (dropped)
+**state**: The state where the participant resides (dropped)
 Categorical features such as Age, Gender, Family History, Care Options, etc.
-treatment: Target variable (1 for treatment needed, 0 for no treatment needed)
+**treatment**: Target variable (1 for treatment needed, 0 for no treatment needed)
 
 ## Requirements
 

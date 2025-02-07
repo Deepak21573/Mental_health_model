@@ -34,53 +34,83 @@ The dataset (survey.csv) contains survey responses with columns representing dem
 # Before running this project, make sure you have the following Python libraries installed:
 
 pandas
+
 numpy
+
 matplotlib
+
 seaborn
+
 sklearn
+
 xgboost
+
 gradio
+
 joblib
 
 #You can install the dependencies by running the following command:
 
 bash
+
 Copy
+
 Edit
+
 pip install -r requirements.txt
+
 File Structure
+
 bash
+
 Copy
+
 Edit
 
 ## File Structure
 ├── survey.csv                     # Dataset
+
 ├── mental_health_model.py         # Script to train and evaluate models
+
 ├── label_encoders.pkl             # Encoders for categorical features
+
 ├── RandomForest_model.pkl         # Random Forest model
+
 ├── XGBoost_model.pkl              # XGBoost model
+
 ├── GradientBoosting_model.pkl     # Gradient Boosting model
+
 ├── LogisticRegression_model.pkl   # Logistic Regression model
+
 ├── app.py                         # Script for the Gradio interface
+
 ├── requirements.txt               # Python dependencies
+
 └── README.md                      # Project overview
 
 ## Model Training and Evaluation
 1. Data Preprocessing
 Missing values are handled by replacing them with "Unknown".
 Categorical variables are encoded using LabelEncoder.
-2. Model Training
+
+3. Model Training
    
 # The following models are trained:
 
 Random Forest
+
 XGBoost
+
 Gradient Boosting
+
 Logistic Regression
 
 # Each model is evaluated based on:
 
 Accuracy
+
 Precision
+
 Recall
+
 F1-score

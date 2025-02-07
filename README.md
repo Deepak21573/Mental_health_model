@@ -17,9 +17,12 @@ The dataset (survey.csv) contains survey responses with columns representing dem
 
 ## Columns:
 **Timestamp**: Timestamp of survey submission (dropped)
+
 **comments**: Optional comments by the participant (dropped)
+
 **state**: The state where the participant resides (dropped)
-Categorical features such as Age, Gender, Family History, Care Options, etc.
+**Categorical features**: such as Age, Gender, Family History, Care Options, etc.
+
 **treatment**: Target variable (1 for treatment needed, 0 for no treatment needed)
 
 ## Requirements

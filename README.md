@@ -49,7 +49,7 @@ gradio
 
 joblib
 
-#You can install the dependencies by running the following command:
+# You can install the dependencies by running the following command:
 
 bash
 
@@ -115,7 +115,7 @@ Recall
 
 F1-score
 
-**Screenshot
+## Screenshot
 
 ![Screenshot (100)](https://github.com/user-attachments/assets/89344769-0d09-466d-a690-d3345c164ea7)
 

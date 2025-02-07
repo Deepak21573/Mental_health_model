@@ -8,8 +8,11 @@ The objective of this project is to build a mental health prediction system that
 The project provides:
 
 Preprocessing of data: Handling missing values, encoding categorical variables.
+
 Model Training: Four machine learning models (Random Forest, XGBoost, Gradient Boosting, and Logistic Regression) are trained and evaluated.
+
 Model Evaluation: The models' performance is evaluated using accuracy, precision, recall, and F1-score.
+
 Model Prediction: A Gradio-based user interface to make real-time predictions based on user input.
 
 ## Dataset
